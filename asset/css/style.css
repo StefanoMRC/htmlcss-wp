@@ -10,7 +10,9 @@ body{
     width: 50%;
     margin: auto
 }
-
+.txt-chiaro{
+    color: rgba(0, 0, 0, 0.507);
+}
 /* LOGO E NAV */
 header{
     width: 100%;
@@ -71,37 +73,67 @@ h3{
     font-size: 1.8em;
 }
 /* PRIMA SEZIONE */
-
-
-
-
-
-.sezione-2{
-    height: 400px;
-    width: 100%;
-    background-color: blue;
-}
 .clearfix::after{
     content: "";
     display: table;
     clear: both;
 }
+.sezione-2{
+    width: 100%;
+}
+
+
+/* HEAD SECONDA SEZIONE */
 .intestazione{
     width: 100%;
-    height: 20%;
-    background-color: aqua;
 }
+.titolo-int{
+    padding: 20px 0;   
+}
+h2{
+    font-size: 2em;
+}
+.sottotitolo-2{
+    color: rgba(0, 0, 0, 0.411);
+}
+/* HEAD SECONDA SEZIONE */
+
+/* COLONNA SINISTRA */
 .row{
+    height: 100%;
     width: 100%;
-    height: calc(80% - 40px);
     margin: 20px 0;
 }
 .colonna-sx{
-    height: 100%;
     width: 20%;
-    background-color: aqua;
     float: left;
 }
+.img-sx{
+    background-image: url(../img/img-1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 200px;
+    border-radius: 30px;
+}
+.opacita-2{
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+    background-color: rgba(0, 0, 0, 0.192);
+}
+
+h4{
+    padding: 20px 0;
+}
+span p{
+    margin-top: 20px;
+    text-align: justify;
+}
+/* COLONNA SINISTRA */
+
+/* COLONNA CENTRALE */
 .colonna-center{
     height: 100%;
     width: calc(60% - 40px);
@@ -109,11 +141,22 @@ h3{
     float: left;
     margin-bottom: 20px;
     margin: 0 20px;
+    border-radius: 30px;
 }
+.img-cent{
+    background-image: url(../img/banner-2.jpg);
+    width: 100%;
+    height: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* COLONNA CENTRALE */
+
+/* COLONNA DESTRA */
 .colonna-dx{
     height: 100%;
     width: 20%;
-    background-color: aqua;
     float: right;
 }
 footer{
@@ -122,3 +165,12 @@ footer{
     background-color: purple;
     margin-top: 20px;
 }
+.img-dx{
+    background-image:url(../img/img-3.jpg);
+    width: 100%;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+/* COLONNA DESTRA */
