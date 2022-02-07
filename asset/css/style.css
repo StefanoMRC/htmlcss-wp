@@ -83,7 +83,10 @@ h3{
 .sezione-2{
     width: 100%;
 }
-
+.row{
+    width: 100%;
+    margin: 20px 0;
+}
 
 /* HEAD SECONDA SEZIONE */
 .intestazione{
@@ -100,11 +103,8 @@ h2{
 }
 /* HEAD SECONDA SEZIONE */
 
+
 /* COLONNA SINISTRA */
-.row{
-    width: 100%;
-    margin: 20px 0;
-}
 .colonna-sx{
     width: 20%;
     float: left;
@@ -125,9 +125,6 @@ h2{
     background-color: rgba(0, 0, 0, 0.192);
 }
 
-h4{
-    padding: 20px 0;
-}
 span p{
     margin-top: 20px;
     text-align: justify;
