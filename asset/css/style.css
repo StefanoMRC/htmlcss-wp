@@ -83,11 +83,12 @@ h3{
 .sezione-2{
     width: 100%;
 }
+
+
 .row{
     width: 100%;
     margin: 20px 0;
 }
-
 /* HEAD SECONDA SEZIONE */
 .intestazione{
     width: 100%;
@@ -168,6 +169,4 @@ span p{
 
 footer{
     width: 100%;
-    height: 300px;
-    background-color: purple;
 }
