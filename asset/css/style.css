@@ -170,3 +170,12 @@ span p{
 footer{
     width: 100%;
 }
+.DWL{
+    text-align: center;
+    font-size: 20px;
+    padding-bottom: 40px;
+    padding-top: 20px;
+}
+.cuore{
+    color: red;
+}
