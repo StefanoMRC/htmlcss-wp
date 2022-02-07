@@ -7,7 +7,7 @@
 /* RESET */
 
 body{
-    width: 80%;
+    width: 50%;
     margin: auto
 }
 
@@ -17,7 +17,7 @@ header{
     margin-bottom: 20px;
 }
 .cont-logo{
-    border-right: solid black 1px;
+    border-right: solid rgba(0, 0, 0, 0.288) 1px;
     width: 250px;
 }
 .logo{
@@ -34,6 +34,7 @@ header{
     color: rgba(0, 0, 0, 0.507);
     display: block;
     padding: 10px;
+    font-size: 1.5em;
 }
 .menu-principale li a:hover{
     background-color:rgba(0, 0, 0, 0.377);
@@ -41,12 +42,40 @@ header{
 }
 /* LOGO E NAV */
 
+/* PRIMA SEZIONE */
 .sezione-1{
-    height: 300px;
-    width: 100%;
     background-color: orange;
     margin-bottom: 20px;
+    width: 100%;
+    height: 500px;
+    background-image: url(../img/banner.jpg);
+    background-position: center;
+    border-radius: 30px;
+    position: relative;
 }
+.opacità{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.192);
+    border-radius: 30px;
+    position: absolute;
+}
+.titolo-sez1{
+    width: 60%;
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
+    color: white;
+}
+h3{
+    font-size: 1.8em;
+}
+/* PRIMA SEZIONE */
+
+
+
+
+
 .sezione-2{
     height: 400px;
     width: 100%;
