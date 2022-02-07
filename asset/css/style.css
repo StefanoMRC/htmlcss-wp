@@ -5,16 +5,42 @@
     box-sizing: border-box;
 }
 /* RESET */
+
 body{
     width: 80%;
     margin: auto
 }
+
+/* LOGO E NAV */
 header{
-    height: 100px;
     width: 100%;
-    background-color: palevioletred;
     margin-bottom: 20px;
 }
+.cont-logo{
+    border-right: solid black 1px;
+    width: 250px;
+}
+.logo{
+    height: 100px;
+}
+.cont-menu{
+    margin-top: 30px;
+}
+.menu-principale li{
+    display: inline-block;
+}
+.menu-principale li a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.507);
+    display: block;
+    padding: 10px;
+}
+.menu-principale li a:hover{
+    background-color:rgba(0, 0, 0, 0.377);
+    color: aliceblue;
+}
+/* LOGO E NAV */
+
 .sezione-1{
     height: 300px;
     width: 100%;
